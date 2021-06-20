@@ -13,6 +13,8 @@ rq worker
 flask run
 ```
 
+> Note: `flask run` will need run.py file, so you have to keep main filename as `run.py`
+
 Next open `http://127.0.0.1:5000/task?n={PUT_ANYTHING}` at your browser.
 
 ## Setup
