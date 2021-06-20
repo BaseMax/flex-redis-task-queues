@@ -33,5 +33,5 @@ pip install redis flask rq
 - https://www.geeksforgeeks.org/queue-in-python/
 - https://pythonise.com/series/learning-flask/flask-rq-task-queue
 - https://www.youtube.com/results?search_query=python+redis
-- 
+
 © Copyright Max Base, 2021
