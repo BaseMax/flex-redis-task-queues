@@ -2,6 +2,10 @@
 
 A python-based web application using **flask** to simulates delay and manage **Queue** by getting from Redis in `rq` worker.
 
+## AIM
+
+I just looking for a purpose and useful reason to use Redis in my projects.
+
 ## Using
 
 ```
