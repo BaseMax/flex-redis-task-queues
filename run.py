@@ -25,7 +25,6 @@ def add_task():
 		n = request.args.get("n")
 		print(f"Your n is {n}")
 		job = q.enqueue(background_task, n)
-		job = q.enqueue(background_task, request.args.get("n"))
 		q_len = len(q)
 		return f"Task {job.id} added to queue at {job.enqueued_at}. {q_len} tasks in the queue"
 	return "N value for n"
